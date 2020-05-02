@@ -4,7 +4,7 @@ List of commands to free up space on your MacOS machine used for development.
 Also includes not-development commands (ej. Spotify, Chrome...)
 
 ## Commands
-USE AT YOUR OWN RISK. This commands are not risky, but anyway you should check carefully what each of them does in order to not prevent surprises.
+USE AT YOUR OWN RISK. This commands are not risky, but anyway you should check carefully [what each of them does](https://github.com/thefabbulus/exeggcute#commands-explained) in order to avoid surprises.
 
 ```
 brew update
@@ -34,8 +34,8 @@ rm -rf ~/Library/Caches/Google/Chrome
 ```
 brew cask upgrade
 brew doctor
-delete /android/avd/<emulator>/snapshots/default_boot/…
-rbenv uninstall <version>
+delete /android/avd/{emulator}/snapshots/default_boot/…
+rbenv uninstall {version}
 ```
 
 ## Commands explained
