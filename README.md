@@ -17,7 +17,7 @@ rm -rf ~/Library/Caches/CocoaPods
 xcrun simctl delete unavailable
 rm -rf ~/Library/Developer/Xcode/Archives
 rm -rf ~/Library/Developer/Xcode/DerivedData
-rm -rf ~~/Library/Developer/Xcode/iOS Device Logs/
+rm -rf ~/Library/Developer/Xcode/iOS Device Logs/
 rm -rf ~/Library/Developer/CoreSimulator/
 rm -rf ~/Library/Developer/Xcode/iOS\ DeviceSupport
 rm -rf ~/Library/Caches/com.apple.dt.Xcode
