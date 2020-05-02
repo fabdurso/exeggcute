@@ -71,7 +71,7 @@ Clears CocoaPods cache if any still present.
 Clears unneeded Xcode simulators.
 
 #### rm -rf ~/Library/Developer/Xcode/Archives
-Clears Xcode archived.
+Clears Xcode archives.
 
 #### rm -rf ~/Library/Developer/Xcode/DerivedData
 Clears Xcode DerivedData (intermediate build results, generated indexes)
@@ -80,7 +80,7 @@ Clears Xcode DerivedData (intermediate build results, generated indexes)
 Clears Xcode Devices logs.
 
 #### rm -rf ~/Library/Developer/CoreSimulator/
-Clears user data present in Simulator.
+Clears user data present in Simulators.
 
 #### rm -rf ~/Library/Developer/Xcode/iOS\ DeviceSupport
 Clears Xcode symbolicate crash logs.
@@ -115,14 +115,16 @@ Clears Skype cache.
 #### rm -rf ~/Library/Caches/Google/Chrome
 Clears Google Chrome cache.
 
+### Optional
+
 #### brew cask upgrade
 Upgrade your Homebrew Cask installed software to their latest versions.
 
 #### brew doctor
 Warns about issues with your Homebrew installation and packages.
 
-#### delete /android/avd/<emulator>/snapshots/default_boot/
-Deletes Android `<emulator>`.
+#### delete /android/avd/{emulator}/snapshots/default_boot/
+Deletes Android `{emulator}`.
 
-#### rbenv uninstall <version>
-Removes Ruby `<version>`
+#### rbenv uninstall {version}
+Removes Ruby `{version}`.
