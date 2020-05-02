@@ -1,5 +1,5 @@
 # exeggcute
-List of commands to free up space on your MacOS machine used for development.
+List of commands to free up space on your MacOS machine used for development, and keep your tools up-to-date.
 
 Also includes not-development commands (ej. Spotify, Chrome...)
 
